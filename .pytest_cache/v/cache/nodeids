@@ -1,0 +1,5 @@
+[
+  "tests/test_basic.py::Tests::test_backend",
+  "tests/test_basic.py::Tests::test_data",
+  "tests/test_basic.py::Tests::test_frontend"
+]

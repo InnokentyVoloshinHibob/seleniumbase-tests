@@ -1,0 +1,29 @@
+test_basic.py::Tests::test_frontend
+--------------------------------------------------------------------
+Last Page: https://practice.automationbro.com/
+  Browser: chrome (102.0.5005.63)
+   Driver: chromedriver (102.0.5005.61)
+Timestamp: 1654928240  (Unix Timestamp)
+     Date: Saturday, 11 June 2022
+     Time: 9:17:20 AM  (Jerusalem Daylight Time, UTC+02:00)
+--------------------------------------------------------------------
+Traceback: File "C:\Users\Innokenty Voloshin\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\Innokenty Voloshin\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\Innokenty Voloshin\PycharmProjects\test\tests\test_basic.py", line 35, in test_frontend
+    self.assert_title("Practice E-Commerce Site - Automation Bro")
+  File "C:\Users\Innokenty Voloshin\PycharmProjects\test\venv\lib\site-packages\seleniumbase\fixtures\base_case.py", line 5839, in assert_title
+    self.assertEqual(expected, actual, error % (expected, actual))
+  File "C:\Users\Innokenty Voloshin\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Innokenty Voloshin\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 1209, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Innokenty Voloshin\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 668, in fail
+    raise self.failureException(msg)
+Exception: 'Practice E-Commerce Site - Automation Bro' != 'Practice E-Commerce Site – Automation Bro'
+- Practice E-Commerce Site - Automation Bro
+?                          ^
++ Practice E-Commerce Site – Automation Bro
+?                          ^
+ : Expected page title [Practice E-Commerce Site - Automation Bro] does not match the actual title [Practice E-Commerce Site – Automation Bro]!
